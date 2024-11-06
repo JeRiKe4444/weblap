@@ -1,0 +1,53 @@
+head {
+
+}
+button {
+    color: lightblue;
+    background-color: darkblue;
+}
+body {  
+    background-color: darkblue;
+    color: lightblue;
+}
+nav ul {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+a {
+    background-color: aquamarine;
+    border-style: double;
+    border-radius: 5px;
+}
+header, aside, article, footer {
+    text-align: center;
+    color: lightblue;
+    padding: 10px;
+}
+div {
+    border-style: double;
+    border: 10px 10px 10px 10px;
+    border-radius: 5px;
+    display: grid;
+}
+aside {
+    float: right;
+    border-style: double;
+    border: 10px 10px 10px 10px;
+}
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+p   {
+    display: grid;
+    border-style: double;
+}
+footer {
+    
+}
+@media screen {
+    
+}
+
+
